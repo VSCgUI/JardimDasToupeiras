@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-size: border-box;
+}
+
+
+
+header img {
+  display: flex;
+}
+
+.hollow {
+
+  display: grid;
+  grid-template-columns: 221.81px 221.81px 221.81px 221.81px;
+  grid-template-rows: 168.11px 168.11px 168.11px 168.11px;
+  gap: 54px;
+  margin: 303px 245px 187px 187px;
+
+  position: absolute;
+  top: -80px;
+  left: -20px;
+
+}
+
+/*Toupeira 1*/
+
+.M-1, .M-2, .M-3, .M-4, .M-5 {
+  display: flex;
+  position: absolute;
+
+  top: 223px;
+  left: 166px;
+  
+
+}
+
+.M-1 {
+  animation-name: downtop;
+  animation-duration: 300ms;
+
+  opacity:0;
+
+}
+
+.M-2 {
+  animation-name: downtop;
+  animation-duration: 400ms;
+
+  opacity:0;
+
+}
+
+.M-3 {
+  animation-name: downtop;
+  animation-duration: 500ms;
+  opacity:0;
+
+}
+
+.M-4 {
+  animation-name: downtop;
+  animation-duration: 750ms;
+
+  opacity:0;
+
+}
+
+.M-5 {
+  animation-name: downtop;
+  animation-duration: 950ms;
+
+  opacity:0;
+
+}
+
+/*Toupeira 2*/
+
+.T-1, .T-2, .T-3, .T-4, .T-5 {
+  display: flex;
+  position: absolute;
+
+  top: 445px;
+  left: 994px;
+  
+
+}
+
+.T-1 {
+  animation-name: T-2;
+  animation-duration: 2300ms;
+
+  opacity:0;
+
+}
+
+.T-2 {
+  animation-name: T-2;
+  animation-duration: 2500ms;
+
+  opacity:0;
+
+}
+
+.T-3 {
+  animation-name: T-2;
+  animation-duration: 2550ms;
+  opacity:0;
+
+}
+
+.T-4 {
+  animation-name: T-2;
+  animation-duration: 2800ms;
+
+  opacity:0;
+
+}
+
+.T-5 {
+  animation-name: T-2;
+  animation-duration: 3000ms;
+
+  opacity:0;
+
+}
+
+/* Animation */
+
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes T-2 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.2;
+  }
+}
+
+
+
+
